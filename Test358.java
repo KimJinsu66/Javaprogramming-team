@@ -17,5 +17,14 @@ public class Test358
             System.out.println(java + " < " + cpp);
         else
             System.out.println(java + " > " + cpp);
+        String a = "    abcd   def   ";
+        String b = "   xyz\t   ";
+        String c = a.trim();
+        String d = b.trim();
+        System.out.println(c);
+        System.out.println(d);
+        
         }
+        
+
 }
