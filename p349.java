@@ -1,4 +1,4 @@
-import java.lang.EqualsEX;
+
 /**
  * 여기에 p349 클래스 설명을 작성하십시오.
  * 
@@ -25,6 +25,8 @@ public class p349
             Point c = new Point(3,4);
             if(a == b) //false
                 System.out.println("a==b");
+            if(a.equals(b)) //false
+                System.out.println("a is equal to b");    
             if(a.equals(c)) //false
                 System.out.println("a is equal to c");
         }
