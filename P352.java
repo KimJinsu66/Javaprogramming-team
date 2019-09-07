@@ -12,4 +12,5 @@ public class P352
         boolean b = Boolean.parseBoolean("true");
         double d = Double.parseDouble("3.14");
     }
+    
 }
