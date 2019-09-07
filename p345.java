@@ -7,11 +7,11 @@
  */
 public class p345
 {
-    public String toString(){
-        return getClass().getName() + "@" + Integer.toHexString(hashCode());
-    }
-    // Point a = new Point(2,3);
-    // System.out.println(a.toString));
+    public static void main(String[] args){
+    Point a = new Point(2,3);
+    System.out.println(p); //p => p.toString() 으로 자동변환
+    String s = p + "점"; //String s = p.toString 으로 자동변환
+}
 }
 
 
