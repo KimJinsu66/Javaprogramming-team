@@ -1,4 +1,4 @@
-import java.util.ObjectPropertyEX;
+import java.util.ObjectPropertyEx;
 /**
  * 여기에 p344 클래스 설명을 작성하십시오.
  * 
@@ -13,7 +13,7 @@ public class Point
         this.y = y;
     }
 }
-public class ObjectPropertyEX{
+public class ObjectPropertyEx{
     public static void print(Object obj){
         System.out.println(obj.getClass().getName());// 클래스 이름
         System.out.println(obj.hashCode());//해시 코드 값
