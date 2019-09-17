@@ -31,7 +31,5 @@ public class IteratorEx
             sum+= n;
         }
         System.out.println("벡터에 있는 정수 합 : " + sum);
-
-    
     }
 }
